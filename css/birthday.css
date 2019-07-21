@@ -1,0 +1,54 @@
+.form-group {
+  width: 50%;
+}
+
+.input {
+  width: 50%;
+}
+
+
+
+#body {
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.card {
+  width: 60%;
+
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+  opacity: 0.7;
+  background-color: transparent;
+}
+
+.card-one {
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+
+
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+  margin-right: 30%;
+}
+
+#footer {
+  text-align: center;
+  background: lightgrey;
+}
+
+.btn btn-light {
+  width: 10%;
+}
+
+.paragraph {
+  color: white;
+}
