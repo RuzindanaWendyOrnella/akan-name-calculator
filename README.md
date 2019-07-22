@@ -30,7 +30,6 @@ i also use DOM functions so that when the user click on the submit button ,an ak
 if you have any issue please contact me at ruzindanawendy@gmail.com.
 ### License
 MIT License
-
 Copyright (c) [2019] [Ruzindana Wendy ornella]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
