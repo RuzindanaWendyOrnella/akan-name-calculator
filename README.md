@@ -14,13 +14,16 @@ programmmer
 * shutter
 * bootstrap
 ## BDD
-
+# scenario 
  A  user should be able to use my akan name displayer and;
 
 See a  small description of what the application does on the landing page.
 Enter their birthday through a form 
 Choose what gender they are.
 Click the submit button to see what their Akan name would be
+# behind the scene
+i use if else statements to set the condition that the user sould follow.example if a user inputs nothing but submit ,i will use and alert to tell him to fill the form.
+i also use DOM functions so that when the user click on the submit button ,an akan name will be displayed according to what the user inputted.
 
 
 
