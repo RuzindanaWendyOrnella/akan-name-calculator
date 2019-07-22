@@ -91,19 +91,19 @@ function userInformation(DD, month, YY, gender) {
 
 
         if (dayOfWeek == 0 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Ama and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Ama,you were born on a saturday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else if (dayOfWeek == 1 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Akosua and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Akosua,you were born on a sunday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else if (dayOfWeek == 2 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Adwoa and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Adwoa,you were born on a monday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else if (dayOfWeek == 3 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Abenaa and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Abenaa,you were born on a tuesday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else if (dayOfWeek == 4 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Akua and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Akua,you were born on a wednesday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else if (dayOfWeek == 5 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Yaa and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Yaa ,you were born on a thursday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else if (dayOfWeek == 6 && gender == 'female') {
-          document.getElementById('paragraph').innerHTML = 'your akan name is Afua and your birthdate is ' + DD + '/' + month + '/' + YY;
+          document.getElementById('paragraph').innerHTML = 'your akan name is Afua ,you were born on a friday and your birthdate is ' + DD + '/' + month + '/' + YY;
         } else {
           alert('please enter your gender');
         }
