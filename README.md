@@ -1,7 +1,7 @@
 # {Project Name}
 Akan Names displayer
 # {Brief description of project}
-This akan names displayer takes the inputted date of birth from the user and generates the day the user was born together with the akan name which is a name given to a person in ghana depending on the day they were born.
+This akan names displayer takes the inputted date of birth from the user and generates the day the user was born together with the akan name which is a name given to a person in ghana depending on the day they were born on.
 22/07/2019
 #### By 
 Ruzindana Wendy Ornella,
