@@ -5,7 +5,7 @@ This akan names displayer takes the inputted date of birth from the user and gen
 22/07/2019
 #### By 
 Ruzindana Wendy Ornella,
-programmmer
+programmmer at wecode.
 
 ## Setup/Installation Requirements
 * visual studio terminal
