@@ -52,6 +52,7 @@ function userInformation(DD, month, YY, gender) {
       var dayOfWeek;
       var dayOfWeek = (6 + (parseInt(DD) + parseInt(parseInt(YY.toString().substr(-2)) / 4)) + parseInt(MM) + parseInt(YY.toString().substr(-2))) % 7;
       console.log(dayOfWeek);
+
       for (j = 0; j <= 6; j++) {
         if (dayOfWeek == 0) {
           console.log('you were born on a saturday');
@@ -71,6 +72,7 @@ function userInformation(DD, month, YY, gender) {
           console.log('wrong entry');
         }
       }
+      Document.getElementById('paragraph').innerHTML = 'your date is' + DD + '/' + month + '/' + YY
       if (dayOfWeek == 0 && gender == 'male') {
         document.getElementById('paragraph').innerHTML = 'your akan name is kwame';
       } else if (dayOfWeek == 1 && gender == 'male') {
