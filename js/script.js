@@ -102,6 +102,8 @@ function userInformation(DD, month, YY, gender) {
           document.getElementById('paragraph').innerHTML = 'your akan name is Yaa';
         } else if (dayOfWeek == 6 && gender == 'female') {
           document.getElementById('paragraph').innerHTML = 'your akan name is Afua';
+        } else {
+          alert('please enter your gender');
         }
       }
     } else {
