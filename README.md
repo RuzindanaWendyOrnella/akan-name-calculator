@@ -15,8 +15,7 @@ programmmer
 * bootstrap
 ## BDD
 # scenario 
- A  user should be able to use my akan name displayer and;
-
+ A  user should be able to use my akan name displayer and:
 See a  small description of what the application does on the landing page.
 Enter their birthday through a form 
 Choose what gender they are.
