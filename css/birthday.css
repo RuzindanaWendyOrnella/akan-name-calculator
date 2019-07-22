@@ -38,7 +38,7 @@
 }
 
 .card-one {
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@
 .h1 {
   text-align: center;
   margin-top: 20%;
-  color: white;
+  color: black;
 
 }
 
@@ -72,7 +72,15 @@
 }
 
 .paragraph {
+  color: black;
+  text-align: center;
+  font-size: 130%;
+}
+
+#paragraph {
   color: white;
+  text-align: center;
+  margin-left: 20%;
 }
 
 .haeder {
@@ -82,11 +90,17 @@
 }
 
 .akannames {
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .card-body {
   background: black;
-  opacity: 0.5;
+  opacity: 0.6;
   color: white;
+}
+
+#anitha {
+  text-align: center;
+  color: white;
+
 }
