@@ -47,63 +47,67 @@ function userInformation(DD, month, YY, gender) {
         error;
       }
     }
+    if (DD > 0 && DD <= 31) {
 
-    var dayOfWeek;
-    var dayOfWeek = (6 + (parseInt(DD) + parseInt(parseInt(YY.toString().substr(-2)) / 4)) + parseInt(MM) + parseInt(YY.toString().substr(-2))) % 7;
-    console.log(dayOfWeek);
-    for (j = 0; j <= 6; j++) {
-      if (dayOfWeek == 0) {
-        console.log('you were born on a saturday');
-      } else if (dayOfWeek == 1) {
-        console.log('you were born on sunday');
-      } else if (dayOfWeek == 2) {
-        console.log('you were born on monday');
-      } else if (dayOfWeek == 3) {
-        console.log('you were born on tuesday');
-      } else if (dayOfWeek == 4) {
-        console.log('you were born on wednesday');
-      } else if (dayOfWeek == 5) {
-        console.log('you were born on thursday');
-      } else if (dayOfWeek == 6) {
-        console.log('you were born on friday');
-      } else {
-        console.log('wrong entry');
+      var dayOfWeek;
+      var dayOfWeek = (6 + (parseInt(DD) + parseInt(parseInt(YY.toString().substr(-2)) / 4)) + parseInt(MM) + parseInt(YY.toString().substr(-2))) % 7;
+      console.log(dayOfWeek);
+      for (j = 0; j <= 6; j++) {
+        if (dayOfWeek == 0) {
+          console.log('you were born on a saturday');
+        } else if (dayOfWeek == 1) {
+          console.log('you were born on sunday');
+        } else if (dayOfWeek == 2) {
+          console.log('you were born on monday');
+        } else if (dayOfWeek == 3) {
+          console.log('you were born on tuesday');
+        } else if (dayOfWeek == 4) {
+          console.log('you were born on wednesday');
+        } else if (dayOfWeek == 5) {
+          console.log('you were born on thursday');
+        } else if (dayOfWeek == 6) {
+          console.log('you were born on friday');
+        } else {
+          console.log('wrong entry');
+        }
       }
-    }
-    if (dayOfWeek == 0 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is kwame';
-    } else if (dayOfWeek == 1 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is Kwasi';
-    } else if (dayOfWeek == 2 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is kwadwo';
-    } else if (dayOfWeek == 3 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is kwabena';
-    } else if (dayOfWeek == 4 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is kwaku';
-    } else if (dayOfWeek == 5 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is yaw';
-    } else if (dayOfWeek == 6 && gender == 'male') {
-      document.getElementById('paragraph').innerHTML = 'your akan name is Kofi';
+      if (dayOfWeek == 0 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is kwame';
+      } else if (dayOfWeek == 1 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is Kwasi';
+      } else if (dayOfWeek == 2 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is kwadwo';
+      } else if (dayOfWeek == 3 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is kwabena';
+      } else if (dayOfWeek == 4 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is kwaku';
+      } else if (dayOfWeek == 5 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is yaw';
+      } else if (dayOfWeek == 6 && gender == 'male') {
+        document.getElementById('paragraph').innerHTML = 'your akan name is Kofi';
+      } else {
+
+
+        if (dayOfWeek == 0 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Ama';
+        } else if (dayOfWeek == 1 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Akosua';
+        } else if (dayOfWeek == 2 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Adwoa';
+        } else if (dayOfWeek == 3 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Abenaa';
+        } else if (dayOfWeek == 4 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Akua';
+        } else if (dayOfWeek == 5 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Yaa';
+        } else if (dayOfWeek == 6 && gender == 'female') {
+          document.getElementById('paragraph').innerHTML = 'your akan name is Afua';
+        } else {
+          alert('error');
+        }
+      }
     } else {
-
-
-      if (dayOfWeek == 0 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Ama';
-      } else if (dayOfWeek == 1 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Akosua';
-      } else if (dayOfWeek == 2 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Adwoa';
-      } else if (dayOfWeek == 3 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Abenaa';
-      } else if (dayOfWeek == 4 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Akua';
-      } else if (dayOfWeek == 5 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Yaa';
-      } else if (dayOfWeek == 6 && gender == 'female') {
-        document.getElementById('paragraph').innerHTML = 'your akan name is Afua';
-      } else {
-        alert('error');
-      }
+      alert('please enter a valid day');
     }
 
 
