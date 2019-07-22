@@ -72,7 +72,7 @@ function userInformation(DD, month, YY, gender) {
           console.log('wrong entry');
         }
       }
-      /*Document.getElementById('yaw').innerHTML = 'your date is' + DD + '/' + month + '/' + YY*/
+
       if (dayOfWeek == 0 && gender == 'male') {
         document.getElementById('paragraph').innerHTML = 'your akan name is kwame,you were born on saturday and your birthdate is ' + DD + '/' + month + '/' + YY;
       } else if (dayOfWeek == 1 && gender == 'male') {
