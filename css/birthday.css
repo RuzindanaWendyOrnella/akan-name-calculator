@@ -9,7 +9,7 @@
 
 
 #body {
-  background: black;
+  background: url('https://thehill.com/sites/default/files/article_images/epawater_getty.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -26,9 +26,10 @@
 }
 
 .card-one {
-  background-color: white;
+  background-color: transparent;
   width: 60%;
   margin-left: 20%;
+  color: white;
 
 
 }
